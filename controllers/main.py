@@ -52,7 +52,7 @@ class ReportController(ReportController):
                 idreport = report_obj.search(cr, uid, [('report_name', '=', reportname)], context=context)
                 try:
                     report = report_obj.browse(cr, uid, idreport[0], context=context)
-                    reportname = report.report_file  + '_' + time.strftime('%Y%m%d', time.gmtime())
+                    reportname = report.report_file
                 except IndexError:
                     _logger.error("Can not lookup report %s" % reportname)
                 
