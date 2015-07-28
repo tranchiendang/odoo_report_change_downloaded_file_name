@@ -8,7 +8,7 @@
     ''',
     'category' : "Utility",
     'depends' : ['report'],
-    'website': 'http://chiendt.blogspot.com',
+    'website': 'https://chiendt.wordpress.com/',
     'data' : [],
     'demo' : [],
     'installable': True,
